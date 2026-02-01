@@ -74,7 +74,7 @@ desktop.ini
 **/target/
 **/bin/
 **/obj/
-
+keys
 # ================ Firebase / GCP related ====================
 .firebase/
 .firebaserc

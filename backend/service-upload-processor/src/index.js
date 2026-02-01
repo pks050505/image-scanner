@@ -10,7 +10,7 @@ app.get("/health", (req, res) => {
   res.status(200).send("OK - upload-processor is alive 🚀");
 });
 
-// Pub/Sub push endpoint
+// Pub/Sub push endpoint .
 app.post("/process-image", (req, res) => {
   console.log("╔════════════════════════════════════════════╗");
   console.log("║     PUB/SUB PUSH MESSAGE RECEIVED!         ║");
