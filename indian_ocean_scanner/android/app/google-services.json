@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "740891297871",
+    "project_id": "exam-project-fd24a",
+    "storage_bucket": "exam-project-fd24a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:740891297871:android:b6ab0c692c50f20523c23a",
+        "android_client_info": {
+          "package_name": "com.example.menuscanner"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYoYIaAmsI0MzthHowvfoc4O_vHaaKRtU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:740891297871:android:b2d4eec2553e36ca23c23a",
+        "android_client_info": {
+          "package_name": "com.indianoccean.indian_ocean_scanner"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYoYIaAmsI0MzthHowvfoc4O_vHaaKRtU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

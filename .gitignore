@@ -1,0 +1,83 @@
+# ─────────────────────────────────────────────────────────────
+#  ROOT .gitignore - SCANNER_APP (Flutter + Node.js monorepo)
+# ─────────────────────────────────────────────────────────────
+
+# ================ Flutter / Dart (frontend) ==================
+**/build/
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/ephemeral/
+**/ios/Runner/GeneratedPluginRegistrant.*
+
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+flutter_*.log
+flutter_build_log.txt
+**/coverage/
+**/test_coverage/
+**/web/index.html  
+
+# ================ Node.js / Backend (all services) ===========
+**/node_modules/
+**/npm-debug.log
+**/yarn-error.log
+**/.pnp.*
+**/dist/
+**/build/
+**/.next/
+**/out/
+**/*.log
+**/.env
+**/.env.local
+**/.env.development.local
+**/.env.test.local
+**/.env.production.local
+
+# ================ IDE / Editor files ========================
+.vscode/
+.idea/
+*.iml
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# ================ Git / Temp files ===========================
+*.bak
+*.tmp
+*.temp
+*.swp
+*~
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ================ Testing / Coverage ========================
+**/coverage/
+**/.nyc_output/
+**/.jest-cache/
+**/.mocha-cache/
+
+# ================ Build artifacts (general) ==================
+**/dist/
+**/build/
+**/out/
+**/target/
+**/bin/
+**/obj/
+
+# ================ Firebase / GCP related ====================
+.firebase/
+.firebaserc
+firebase.json  # agar sensitive hai to ignore karo, warna mat karo
+.gcloudignore
+# 
