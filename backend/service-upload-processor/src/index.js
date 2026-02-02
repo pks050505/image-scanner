@@ -11,7 +11,7 @@ app.get("/health", (req, res) => {
 });
 
 
-// Pub/Sub push endpoint .
+// Pub/Sub push endpoint 
 app.post("/process-image", (req, res) => {
   console.log("╔════════════════════════════════════════════╗");
   console.log("║     PUB/SUB PUSH MESSAGE RECEIVED!         ║");
